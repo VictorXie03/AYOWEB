@@ -5,10 +5,54 @@
     border-radius: 15px;
 }
 
-.menuImage:hover {}
+.descriptionBox {
+    display: none;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 0.5em;
+    left: 0;
+    right: 0;
+    top: 1;
+    bottom: -1em;
+    text-align: center;
+    color: white;
+    border: 1px solid black;
+    background: rgba(0, 0, 0, 0.5);
+    width: 90%;
+    border-radius: 15px;
+    transform: scale(1.1);
+    z-index: 1;
+
+}
+
+.descriptionText {
+    /* display: none; */
+    margin: 0;
+    font-size: 12px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    z-index: 1;
+
+}
+
+.menuImage:hover {
+    z-index: 1;
+    transform: scale(1.1);
+    box-shadow: 0 25px 40px rgba(0, 0, 0, 0.5);
+}
+
+
+.card-wrapper:hover>.descriptionBox {
+    display: block;
+    z-index: 2;
+
+}
 
 
 .slick-slide {
+    position: relative;
     margin: 6em 0em;
 }
 

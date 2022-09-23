@@ -29,7 +29,12 @@ export default class MenuCarousel extends Component {
             <div>
                 <Slider {...settings}>
                     <div className="card-wrapper">
-                        <img className="menuImage" src={image1} />
+                        <div>
+                            <img className="menuImage" src={image1} ></img>
+                        </div>
+                        <div className="descriptionBox">
+                            <h2 className="descriptionText"> YUMMY FOOD </h2>
+                        </div>
                     </div>
                     <div className="card-wrapper">
                         <img className="menuImage" src={image2} />
