@@ -23,7 +23,7 @@ const Footer = () => {
                     <div className="grid-item footer-copyright">
                         <div className="icons">
                             <a href="https://www.facebook.com/people/Asian-Yummy-One/100057530585773/" target=" _blank"><FaFacebook /></a>
-                            <a href="https://www.google.com/maps/place/Asian+Yummy+One/@44.3427906,-79.8581163,12z/data=!4m5!3m4!1s0x882a93c477cd4d71:0x84518a0e0c9daa17!8m2!3d44.3210233!4d-79.8858671"><SiGooglemaps /></a>
+                            <a href="https://www.google.com/maps/place/Asian+Yummy+One/@44.3427906,-79.8581163,12z/data=!4m5!3m4!1s0x882a93c477cd4d71:0x84518a0e0c9daa17!8m2!3d44.3210233!4d-79.8858671" target=" _blank"><SiGooglemaps /></a>
                         </div>
 
                         <div className="copyright">

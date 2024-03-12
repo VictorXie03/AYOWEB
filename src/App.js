@@ -7,6 +7,7 @@ import Menu from './components/Menu/Menu';
 import Directions from './components/Directions/Directions';
 import TopCarousel from './components/TopCarousel/TopCarousel'
 import Footer from './components/Footer/Footer';
+import ChefsPicks from './components/ChefsPicks/ChefsPicks';
 
 function App() {
       return (
@@ -18,6 +19,7 @@ function App() {
                   <Directions></Directions>
                   <Menu></Menu>
                   <Reviews></Reviews>
+                  <ChefsPicks></ChefsPicks>
                   <Footer></Footer>
             </div>
       );

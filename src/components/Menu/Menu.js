@@ -13,8 +13,8 @@ const Menu = () => {
         <div className="Menu-right">
           <div className="Menu-info">
             <h1 className="Menu-title">Menu</h1>
-            <p className="Menu-paragraph">Lorem ipsum dolor sit amet. Et galisum tempore At esse odio rem beatae architecto qui galisum voluptas aut nulla molestiae ea commodi</p>
-            <a href={menu} className="button">Full Menu</a>
+            <p className="Menu-paragraph">Whether you're seeking the familiar comfort of classic Chinese dishes or craving the excitement of bold new flavors, our menu has something to delight every palate.</p>
+            <a href={menu} target="_blank" className="button">Full Menu</a>
           </div>
         </div>
       </div>
