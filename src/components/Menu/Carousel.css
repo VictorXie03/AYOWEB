@@ -2,7 +2,7 @@
     width: 90%;
     display: block;
     margin: auto;
-    border-radius: 15px;
+    border-radius: 0.75vw;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -19,10 +19,10 @@
     bottom: -1em;
     text-align: center;
     color: white;
-    border: 1px solid black;
+    border: 0.05vw solid black;
     background: rgba(0, 0, 0, 0.5);
     width: 90%;
-    border-radius: 15px;
+    border-radius: 0.75vw;
     transform: scale(1);
     transition: transform 0.3s ease-in-out;
     z-index: 1;
@@ -32,7 +32,7 @@
 .descriptionText {
     /* display: none; */
     margin: 0;
-    font-size: 12px;
+    font-size: 0.6vw;
     padding-top: 1em;
     padding-bottom: 1em;
     z-index: 1;
@@ -42,7 +42,7 @@
 .card-wrapper:hover .menuImage {
     z-index: 1;
     transform: scale(1.1);
-    box-shadow: 0 25px 40px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 1.25vw 2vw rgba(0, 0, 0, 0.5);
 }
 
 .card-wrapper:hover .descriptionBox {
@@ -63,12 +63,12 @@
 
 #slider-2 .slick-prev {
     z-index: 100;
-    left: 20px !important;
+    left: 1vw !important;
 }
 
 #slider-2 .slick-next {
     z-index: 100;
-    right: 20px !important;
+    right: 1vw !important;
 }
 
 .menuCarouselContainer {

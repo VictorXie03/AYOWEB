@@ -56,3 +56,8 @@
 .chef-title {
     font-size: 1.5vw;
 }
+
+.ChefsPicks-title img {
+    max-height: 2vw;
+    max-width: 2vw;
+}
