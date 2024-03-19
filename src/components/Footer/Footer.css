@@ -125,3 +125,32 @@
 .bottom-image {
     width: 100%;
 }
+
+@media (max-width: 1220px) {
+
+    .grid-container {
+        grid-template-rows: 35vw 25vw;
+        font-size: 2.6vw;
+    }
+
+    .contact {
+        font-size: 3.4vw;
+    }
+
+    .order {
+        font-size: 2.4vw;
+    }
+
+    .copyright {
+        font-size: 1.6vw;
+    }
+
+    .phone-paragraph {
+        font-size: 1.6vw;
+    }
+
+    .call-button {
+        font-size: 2vw;
+        padding: 1.7vw 3vw;
+    }
+}

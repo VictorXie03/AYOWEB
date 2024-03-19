@@ -1,5 +1,5 @@
 .ChefsPicks {
-    height: 84vw;
+    height: 80vw;
 }
 
 .ChefsPicks-container {
@@ -25,7 +25,7 @@
 .ChefsPicksCard {
     border-radius: 0.5vw;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.2vw 0.4vw rgba(0, 0, 0, 0.1);
     margin: 0 0.5vw;
     width: 100%;
 }
@@ -34,17 +34,16 @@
     width: 100%;
     object-fit: cover;
     padding: 1vw;
-    border-radius: 2vw;
 }
 
 .CardContainer {
-    border: 1px solid #ccc;
+    border: 0.05vw solid #ccc;
     /* Border color */
-    border-radius: 10px;
+    border-radius: 0.5vw;
     /* Rounded corners */
     overflow: hidden;
     /* Hide overflowing content (e.g., rounded corners for images) */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.2vw 0.4vw rgba(0, 0, 0, 0.1);
     /* Optional: Add a subtle box shadow */
     height: 100%;
 }
@@ -60,4 +59,31 @@
 .ChefsPicks-title img {
     max-height: 2vw;
     max-width: 2vw;
+}
+
+@media (max-width: 1220px) {
+    .ChefsPicks-container {
+        max-height: 50vw;
+    }
+
+    .CardContainer {
+        height: 40vw;
+    }
+
+    .chef-title {
+        font-size: 2.5vw;
+    }
+
+    .chef-description {
+        font-size: 2vw;
+    }
+
+    .ChefsPicks-title {
+        font-size: 3.2vw;
+    }
+
+    .ChefsPicks-title img {
+        max-height: 4vw;
+        max-width: 4vw;
+    }
 }

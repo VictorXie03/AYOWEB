@@ -62,6 +62,19 @@ a.button {
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-top: 4vh;
+    }
+
+    .Menu-title {
+        font-size: 2.6vw;
+    }
+
+    .Menu-paragraph {
+        font-size: 2vw;
+    }
+
+    a.button {
+        font-size: 2.2vw;
     }
 }
 

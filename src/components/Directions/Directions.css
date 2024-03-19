@@ -49,19 +49,25 @@
         flex: 100%;
         margin-top: 2vw;
         align-self: center;
+        font-size: 2.6vw;
     }
 
     .HoursContainer {
         margin: 5vw auto;
     }
 
-    .directions {
+    .Directions {
         display: flex;
         flex-direction: column;
+        height: 35vw;
     }
 
     .row {
         flex-direction: column;
         flex-wrap: nowrap;
+    }
+
+    .textbox {
+        font-size: 2vw;
     }
 }

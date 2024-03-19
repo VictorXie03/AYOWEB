@@ -27,3 +27,17 @@
     text-align: center;
     color: #787878;
 }
+
+@media (max-width: 600px) {
+    .About {
+        height: 35vw;
+    }
+
+    .About-heading {
+        font-size: 2.6vw;
+    }
+
+    .About-paragraph {
+        font-size: 2vw
+    }
+}

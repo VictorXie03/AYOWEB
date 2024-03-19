@@ -24,21 +24,21 @@ export default class TopCarousel extends Component {
                         <img
                             className='Top-image' id='home' src={topImage}>
                         </img>
-                        <div class="bottomright">The images shown are for illustration purposes only and may not be an exact representation of the product.</div>
+                        <div className="bottomright">The images shown are for illustration purposes only and may not be an exact representation of the product.</div>
                     </div>
                     <div className='article'>
                         <div className='header'>Asian Yummy One</div>
                         <img
                             className='Top-image' id='home' src={topImage}>
                         </img>
-                        <div class="bottomright">The images shown are for illustration purposes only and may not be an exact representation of the product.</div>
+                        <div className="bottomright">The images shown are for illustration purposes only and may not be an exact representation of the product.</div>
                     </div>
                     <div className='article'>
                         <div className='header'>Asian Yummy One</div>
                         <img
                             className='Top-image' id='home' src={topImage}>
                         </img>
-                        <div class="bottomright">The images shown are for illustration purposes only and may not be an exact representation of the product.</div>
+                        <div className="bottomright">The images shown are for illustration purposes only and may not be an exact representation of the product.</div>
                     </div>
                 </Slider>
             </div>
