@@ -32,13 +32,10 @@
     font-size: 1vw;
     text-align: left;
     color: #FFFFFF;
+    margin-bottom: 2vw;
 }
 
 a.button {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-
     text-decoration: none;
     background: #000000;
     box-sizing: border-box;
@@ -49,10 +46,10 @@ a.button {
     text-align: center;
     color: #FFFFFF;
     width: 10vw;
-    margin-top: 2vw;
+    padding: 0.25vw 2vw 0.25vw 2vw;
 }
 
-@media (max-width: 1220px) {
+@media (max-width: 600px) {
     .Menu-left {
         width: 0%
     }
@@ -75,7 +72,7 @@ a.button {
 
     a.button {
         font-size: 2.2vw;
-        width: 20vw;
+        padding: 0.25vw 3vw 0.25vw 3vw;
     }
 }
 
