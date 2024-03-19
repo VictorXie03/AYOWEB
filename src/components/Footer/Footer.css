@@ -133,10 +133,12 @@
 
     .contact {
         font-size: 3.4vw;
+        margin-bottom: 1vw;
     }
 
     .order {
         font-size: 2.4vw;
+        margin-bottom: 1vw;
     }
 
     .copyright {
