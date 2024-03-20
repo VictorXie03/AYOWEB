@@ -55,3 +55,46 @@
 #slider-1 .slick-dots li {
     margin: 0 1.7vw;
 }
+
+a.top-button {
+    text-decoration: none;
+    background-color: #898B61;
+    box-sizing: border-box;
+    font-family: 'Circular Std', sans-serif;
+    font-weight: 450;
+    font-size: 1.2vw;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 1vw;
+    width: 10vw;
+    padding: 0.25vw 2vw 0.25vw 2vw;
+    position: absolute;
+    top: 10vw;
+    bottom: 0;
+    left: 0;
+    right: 11vw;
+    height: fit-content;
+    margin: auto;
+}
+
+a.top-call-button {
+    background-color: #898B61;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Circular Std', sans-serif;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 1vw;
+    text-align: center;
+    line-height: 0.9vw;
+    padding: 0.7vw 2vw;
+    border-radius: 1vw;
+    width: 10vw;
+    position: absolute;
+    top: 10vw;
+    bottom: 0;
+    left: 10vw;
+    right: 0;
+    height: fit-content;
+    margin: auto;
+}
