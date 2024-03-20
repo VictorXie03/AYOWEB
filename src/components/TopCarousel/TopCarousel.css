@@ -69,10 +69,10 @@ a.top-button {
     width: 10vw;
     padding: 0.25vw 2vw 0.25vw 2vw;
     position: absolute;
-    top: 10vw;
+    top: 15vw;
     bottom: 0;
     left: 0;
-    right: 11vw;
+    right: 15vw;
     height: fit-content;
     margin: auto;
 }
@@ -91,9 +91,9 @@ a.top-call-button {
     border-radius: 1vw;
     width: 10vw;
     position: absolute;
-    top: 10vw;
+    top: 15vw;
     bottom: 0;
-    left: 10vw;
+    left: 15vw;
     right: 0;
     height: fit-content;
     margin: auto;
