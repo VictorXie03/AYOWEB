@@ -1,16 +1,15 @@
-.Nav-heading-elements :hover {
-    opacity: 60%;
+.Nav-heading-elements:hover {
     cursor: pointer;
+    color: white;
+    text-decoration-line: underline;
 }
 
 .active {
-    opacity: 60%;
     color: white;
     text-decoration: none;
 }
 
 .a:hover {
-    opacity: 60%;
     color: white;
     text-decoration: none;
 }
@@ -30,24 +29,68 @@ a:active {
     align-items: center;
     justify-content: center;
     width: 100vw;
-    background: rgba(0, 0, 0, 0.5);
+    background: #898B61;
     z-index: 5;
 }
 
 .Nav-heading-elements {
-    margin: 1vw 4vw;
+    margin: 1vw 1vw;
     background: none;
     border: none;
     list-style: none;
     font-family: 'Circular Std', sans-serif;
     font-weight: 450;
-    font-size: 1.5vw;
-    line-height: 13px;
+    font-size: 1vw;
+    line-height: 2.5vw;
     text-align: center;
 
-    color: #FFFFFF;
+    color: #F7E8D5;
+}
+
+.Nav-title {
+    font-family: 'Circular Std', sans-serif;
+    color: white;
+    margin-left: 0.5vw;
+    position: absolute;
+    left: 9vw;
+    top: 1.25vw;
+    font-size: 1.25vw;
 }
 
 .logoLink {
-    height: 2vw;
+    height: 3.5vw;
+    width: 3.5vw;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0.5vw;
+    left: 5vw;
+}
+
+.nav-call-button {
+    text-decoration: none;
+    background-color: white;
+    box-sizing: border-box;
+    font-family: 'Circular Std', sans-serif;
+    font-weight: 450;
+    font-size: 1vw;
+    text-align: center;
+    color: #898B61;
+    border-radius: 2vw;
+    width: 8vw;
+    padding: 0 0.25vw 0 0.25vw;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 80vw;
+    right: 0;
+    height: fit-content;
+    margin: auto;
+    opacity: 80%;
+}
+
+.nav-call-button:hover {
+    border-style: solid;
+    color: white;
+    background-color: #898B61;
 }

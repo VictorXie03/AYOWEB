@@ -29,6 +29,7 @@
     justify-content: flex-start;
     height: max(20vw, 20vh);
     position: relative;
+    width: 90%;
 }
 
 .Reviews-rating {

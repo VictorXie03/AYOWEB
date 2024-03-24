@@ -11,7 +11,7 @@
 .Top-image {
     object-fit: cover;
     width: 100%;
-    height: 100%;
+    height: 45.5vw;
 }
 
 .bottomright {
@@ -26,15 +26,32 @@
     font-family: 'Circular Std', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 6vw;
+    font-size: 4vw;
     line-height: 61px;
     color: white;
     text-align: center;
     position: absolute;
     top: 0;
+    bottom: 9vw;
+    left: 0;
+    right: 66vw;
+    height: fit-content;
+    margin: auto;
+}
+
+.header-2 {
+    font-family: 'Circular Std', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4vw;
+    line-height: 61px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 1vw;
     bottom: 0;
     left: 0;
-    right: 0;
+    right: 51vw;
     height: fit-content;
     margin: auto;
 }
@@ -62,39 +79,50 @@ a.top-button {
     box-sizing: border-box;
     font-family: 'Circular Std', sans-serif;
     font-weight: 450;
-    font-size: 1.2vw;
+    font-size: 1.5vw;
     text-align: center;
     color: #FFFFFF;
-    border-radius: 1vw;
-    width: 10vw;
-    padding: 0.25vw 2vw 0.25vw 2vw;
+    border-radius: 2vw;
+    width: 12vw;
+    padding: 0.75vw 2vw 0.75vw 2vw;
     position: absolute;
     top: 15vw;
     bottom: 0;
     left: 0;
-    right: 15vw;
+    right: 73vw;
     height: fit-content;
     margin: auto;
 }
 
 a.top-call-button {
-    background-color: #898B61;
     text-decoration: none;
-    color: #fff;
+    background-color: black;
+    box-sizing: border-box;
     font-family: 'Circular Std', sans-serif;
-    font-style: normal;
     font-weight: 450;
-    font-size: 1vw;
+    font-size: 1.5vw;
     text-align: center;
-    line-height: 0.9vw;
-    padding: 0.7vw 2vw;
-    border-radius: 1vw;
-    width: 10vw;
+    color: #FFFFFF;
+    border-radius: 2vw;
+    width: 12vw;
+    padding: 0.85vw 2vw 0.85vw 2vw;
     position: absolute;
     top: 15vw;
     bottom: 0;
-    left: 15vw;
-    right: 0;
+    left: 0;
+    right: 45vw;
     height: fit-content;
     margin: auto;
+    opacity: 80%;
+}
+
+a.top-call-button:hover {
+    background-color: white;
+    color: black;
+}
+
+a.top-button:hover {
+    background-color: white;
+    color: #898B61;
+    opacity: 75%;
 }
