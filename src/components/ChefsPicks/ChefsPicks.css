@@ -69,8 +69,8 @@
 }
 
 .ChefsPicks-title img {
-    max-height: 5vh;
-    max-width: 5vw;
+    height: 4.5vh;
+    width: 2.5vw;
 }
 
 @media (max-width: 1220px) {
@@ -97,8 +97,8 @@
     }
 
     .ChefsPicks-title img {
-        max-height: 4vw;
-        max-width: 4vw;
+        height: 4vw;
+        width: 4vw;
     }
 
 }
