@@ -61,7 +61,9 @@
 }
 
 .call-button:hover {
-    color: white;
+    background-color: white;
+    color: #898B61;
+    opacity: 75%;
 }
 
 
@@ -113,7 +115,7 @@
     width: 4vw;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 1.5vw;
+    margin-bottom: 0.5vw;
 }
 
 .text-on-image {

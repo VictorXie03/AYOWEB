@@ -94,3 +94,18 @@ a:active {
     color: white;
     background-color: #898B61;
 }
+
+@media (max-width: 1220px) {
+    .Nav-heading {
+        height: 10vw;
+    }
+
+    .Nav-title {
+        top: 4.25vw;
+    }
+
+    .logoLink {
+        height: 4.5vw;
+        width: 4.5vw;
+    }
+}

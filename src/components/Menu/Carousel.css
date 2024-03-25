@@ -3,7 +3,6 @@
     display: block;
     margin: auto;
     border-radius: 0.75vw;
-    transition: transform 0.3s ease-in-out;
 }
 
 .descriptionBox {
@@ -16,38 +15,33 @@
     left: 0;
     right: 0;
     top: 1;
-    bottom: -1vw;
+    bottom: -1.4vw;
     text-align: center;
     color: white;
-    border: 0.05vw solid black;
-    background: rgba(0, 0, 0, 0.5);
+    background: #898B61E6;
     width: 90%;
-    border-radius: 0.75vw;
-    transform: scale(1);
-    transition: transform 0.3s ease-in-out;
-    z-index: 1;
-
+    border-radius: 0 0 0.75vw 0.75vw;
+    height: 4vw;
 }
 
 .descriptionText {
     /* display: none; */
     margin: 0;
-    font-size: 0.6vw;
-    padding-top: 1em;
+    font-size: 0.8vw;
+    padding-top: 1.6em;
     padding-bottom: 1em;
     z-index: 1;
-
 }
 
 .card-wrapper:hover .menuImage {
     z-index: 1;
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .card-wrapper:hover .descriptionBox {
     display: block;
     z-index: 2;
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 #slider-2 .slick-slide {
@@ -84,6 +78,8 @@
     }
 
     .descriptionBox {
-        border-radius: 2vw;
+        border-radius: 0 0 2vw 2vw;
+        height: 10vw;
+        bottom: -3.7vw;
     }
 }
