@@ -23,7 +23,7 @@ export default class MenuCarousel extends Component {
             slidesToShow: 5,
             speed: 1000,
             autoplay: true,
-            autoplaySpeed: 1500,
+            autoplaySpeed: 3500,
             responsive: [
                 {
                     breakpoint: 1024,
