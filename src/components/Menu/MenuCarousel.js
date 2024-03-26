@@ -19,6 +19,7 @@ export default class MenuCarousel extends Component {
             className: "center",
             centerMode: true,
             infinite: true,
+            arrows: true,
             centerPadding: "60px",
             slidesToShow: 5,
             speed: 1000,
