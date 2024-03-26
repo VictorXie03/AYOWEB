@@ -19,7 +19,6 @@ export default class MenuCarousel extends Component {
             className: "center",
             centerMode: true,
             infinite: true,
-            arrows: true,
             centerPadding: "60px",
             slidesToShow: 5,
             speed: 1000,
@@ -58,6 +57,7 @@ export default class MenuCarousel extends Component {
 
         return (
             <div className="menuCarouselContainer" id="slider-2">
+                <button type="button" class="slick-next">Next</button>
                 <Slider {...settings}>
                     <div className="card-wrapper">
                         <div>
