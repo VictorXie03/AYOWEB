@@ -53,14 +53,19 @@
     color: black;
 }
 
+.slick-prev:before,
+.slick-next:before {
+    color: black !important;
+}
+
 #slider-2 .slick-prev {
     z-index: 100;
-    left: 1vw;
+    left: 1vw !important;
 }
 
 #slider-2 .slick-next {
     z-index: 100;
-    right: 1vw;
+    right: 1vw !important;
 }
 
 .menuCarouselContainer {
