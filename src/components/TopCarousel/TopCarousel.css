@@ -126,3 +126,30 @@ a.top-button:hover {
     color: #898B61;
     opacity: 75%;
 }
+
+@media (max-width: 1220px) {
+    .Top-image {
+        height: 60vw;
+    }
+
+    .header {
+        font-size: 5vw;
+    }
+
+    .header-2 {
+        font-size: 5vw;
+        top: 2vw;
+    }
+
+    a.top-button {
+        font-size: 1.7vw;
+        top: 17vw;
+        padding: 1.2vw 2vw 1.2vw 2vw;
+    }
+
+    a.top-call-button {
+        top: 17vw;
+        font-size: 1.7vw;
+        padding: 1.2vw 2vw 1.2vw 2vw;
+    }
+}
