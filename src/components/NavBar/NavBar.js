@@ -26,9 +26,9 @@ const NavBar = () => {
             <li className="Nav-heading-elements">
                 <Link to="contact" spy={true} offset={-100} duration={500}>Contact</Link>
             </li>
-            <li className="Nav-heading-elements">
+            {/* <li className="Nav-heading-elements">
                 <a className="nav-call-button" href="tel://+7054245555">Order now</a>
-            </li>
+            </li> */}
         </div>
     )
 }

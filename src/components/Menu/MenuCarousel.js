@@ -81,7 +81,7 @@ export default class MenuCarousel extends Component {
                     <div className="card-wrapper">
                         <img className="menuImage" src={image4} />
                         <div className="descriptionBox">
-                            <h2 className="descriptionText"> CHICKEN EGG NOODLE </h2>
+                            <h2 className="descriptionText"> CHICKEN LO MEIN </h2>
                         </div>
                     </div>
                     <div className="card-wrapper">

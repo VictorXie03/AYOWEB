@@ -11,9 +11,9 @@ const ChefsPicks = () => {
         <div className="ChefsPicks-container">
             <h1 className="ChefsPicks-title">Chef's Favourites <img src={logo} /></h1>
             <div className="ChefsPicks-cards">
-                <ChefsPicksCard img={chowmein} title="Seafood Chowmein Party Tray" description="Sliced chicken, shrimp, pork, cooked w/ mixed vegetables on Cantonese egg noodles" />
+                <ChefsPicksCard img={chowmein} title="Seafood Cantonese Chowmein Party Tray" description="Sliced chicken, shrimp, pork, cooked w/ mixed vegetables on Cantonese egg noodles" />
                 <ChefsPicksCard img={generaltao} title="General Tso's Chicken" description="Crispy chicken bites tossed in tangy General Tso's sauce, served with steamed rice" />
-                <ChefsPicksCard img={chickennoodle} title="Chicken Egg Noodle" description="Sliced chicken mixed with egg noodles, topped with mixed vegetables" />
+                <ChefsPicksCard img={chickennoodle} title="Chicken Lo Mein" description="Sliced chicken mixed with lo mein, topped with mixed vegetables" />
             </div>
         </div>
     );
