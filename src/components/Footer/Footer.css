@@ -1,5 +1,5 @@
 .footer-container {
-    background-image: url("../../images/main1.svg");
+    background-image: url("../../images/beef-vegetables-sesame-seeds-black-bowl-black-slate-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -126,6 +126,14 @@
     width: 100%;
 }
 
+.bottomright {
+    position: absolute;
+    bottom: 0.4vw;
+    right: 0.8vw;
+    font-size: 0.5vw;
+    color: aliceblue;
+}
+
 @media (max-width: 1220px) {
 
     .grid-container {
@@ -148,6 +156,7 @@
     }
 
     .phone-paragraph {
+        padding-right: 5vw;
         font-size: 1.6vw;
     }
 

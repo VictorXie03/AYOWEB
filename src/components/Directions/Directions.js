@@ -9,8 +9,7 @@ const Directions = () => {
             LOCATION & DELIVERY
           </div>
           <div className='textbox'>
-            Order now at +17054245555 and our deliver driver will arrive at your
-            doorstep in less than 20 minutes if you live around Brantford!
+            17 King St, Aungus, ON L0M 1B0, Canada
           </div>
         </div>
         <div className='column'>

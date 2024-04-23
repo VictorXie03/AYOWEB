@@ -34,6 +34,7 @@ const Footer = () => {
                     <div className="grid-item footer-phone">
                         <div className="phone-paragraph">+1(705)424 5555 &nbsp; 17 King St, Angus, ON L0M 1B0<hr /></div>
                     </div>
+                    <div className="bottomright">Designed by Freepik</div>
 
                 </div>
             </div>
