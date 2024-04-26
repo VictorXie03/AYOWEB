@@ -17,7 +17,7 @@ const Footer = () => {
                         <div className="footer-contactinfo">
                             <div className="contact">CONTACT</div>
                             <div className="order">Order now at +1 (705)424-5555 for delivery!</div>
-                            <a className="call-button" href="tel://+7054245555">CALL NOW</a>
+                            <a className="call-button" href="tel://+17054245555">CALL NOW</a>
                         </div>
                     </div>
                     <div className="grid-item footer-copyright">
