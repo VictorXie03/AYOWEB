@@ -15,7 +15,7 @@ const TopCarousel = () => {
                 className='Top-image' id='home' src={topImage}>
             </img>
             <a href={menu} target="_blank" className="top-button">Full Menu</a>
-            <a className="top-call-button" href="tel://+7054245555">Call Now</a>
+            <a className="top-call-button" href="tel://+17054245555">Call Now</a>
             <div className="bottomright">Designed by Freepik</div>
         </div>
     );
