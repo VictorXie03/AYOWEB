@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './TopCarousel.css'
 import topImage from '../../images/beef-vegetables-sesame-seeds-black-bowl-black-slate-background.jpg'
-import menu from '../../images/menu.pdf'
+import menu from '../../images/ayofullmenu.pdf'
 
 
 

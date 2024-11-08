@@ -1,6 +1,6 @@
 import React from 'react'
 import menuLeft from '../../images/menu-left.svg'
-import menu from '../../images/menu.pdf'
+import menu from '../../images/ayofullmenu.pdf'
 import MenuCarousel from './MenuCarousel'
 import './Menu.css'
 
